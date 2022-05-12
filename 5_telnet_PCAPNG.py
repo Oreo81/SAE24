@@ -14,7 +14,7 @@ def ip_to_idx(ip,conec):
     return 0
 
 def getFTPData(trames,connec):
-    alpha ='abcdefghijklmnopqrstuvwxyz'
+    alpha ="abcdefghijklmnopqrstuvwxyz~!@#$%^&*_-+=`|()}{[]:;'<>,.?/1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     global template
     for frame in trames:
         if connec == []:

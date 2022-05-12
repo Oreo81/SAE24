@@ -40,7 +40,7 @@ def ip_to_idx(ip,conec):
 
 def telnet(trames,idx_trame,connec):
     global template
-    alpha ='abcdefghijklmnopqrstuvwxyz'
+    alpha ="abcdefghijklmnopqrstuvwxyz~!@#$%^&*_-+=`|()}{[]:;'<>,.?/1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     for frame in trames:
         if connec == []:
             if frame.haslayer('TCP'):
